@@ -8,7 +8,7 @@ fs.writeFile("example2.json", "Estoy escribiendo algo importante", (error) => {
   fs.readFile("example2.json", "utf-8", (error, resultado) => {
     if (error) return console.log(`Error al leer el archivo`);
     console.log(resultado);
-    fs.appendFile("example2.json", "agrego más contenido", (error) => {
+    fs.appendFile("example2.json", " agrego más contenido", (error) => {
       if (error)
         return console.log(
           `Error al agregar más contenido al agregar contenido`
